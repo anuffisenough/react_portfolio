@@ -20,7 +20,7 @@ function Header() {
       fontStyle: 'oblique',
       alignSelf: 'center',
       justifySelf: 'center',
-    }}>Christopher Uffman</h1>
+      }}>Christopher Uffman</h1>
       <Navigation />
     </div>
   );

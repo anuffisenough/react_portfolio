@@ -1,13 +1,13 @@
-*{
+body {
     padding: 0px;
     margin: 0px;
 }
 
-/*#other-applications {
+#other-applications {
     height: 200px;
     width: auto;
 
-}*/
+}
 
 /*trying to keep name content and nav bar on same section at top, and flex around each other as screen decrements*/
 header {
@@ -58,7 +58,7 @@ nav {
     margin: 30px;
 }
 
-/*
+
 h2 {
     float: left;
     padding: 10px;

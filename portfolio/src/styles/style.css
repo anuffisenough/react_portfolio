@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*#other-applications {
+    height: 200px;
+    width: auto;
+
+}*/
+
+/*trying to keep name content and nav bar on same section at top, and flex around each other as screen decrements*/
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+/*Good*/
+h1 {
+    flex-direction: row;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    align-self: center;
+    justify-self: center;
+}
+
+/*Good*/
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-list {
+    display: flex;
+    flex-direction: row;
+
+ }
+
+.flex-list-item {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    padding: 20px;
+    justify: space-between;
+    flex-wrap: wrap;
+    display: block;
+    color: black;
+}
+
+.flex-list li a {
+    margin: 30px;
+}
+
+/*
+h2 {
+    float: left;
+    padding: 10px;
+    background-color: rgb(64, 113, 70);
+    align-content: center;
+    border-right: solid black;
+}
+
+
+
+.flex-hero {
+    margin: 0px;
+    background-color: rgb(151, 193, 151);
+    display: flex;
+}
+
+.flex-hero img {
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+    border-radius: 15%;
+}
+
+.section-container {
+    position: absolute;
+}
+  
+  .section-container h2 {
+    float: left;
+    padding: 10px;
+    background-color: rgb(64, 113, 70);
+    align-content: center;
+    border-right: solid black;
+}
+  
+.section-container p {
+    position: relative;
+    margin-left: 220px;    
+    background-color: rgb(64, 113, 70);
+}
+
+.images-section {
+    margin-top: 100px;
+    position:absolute;
+}
+
+.contact-flex {
+    margin-top: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap, column;
+    min-height: 40px;
+}
+
+.contact-flex ul {
+    justify-content: space-evenly;
+}
+
+.contact-flex ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    padding: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    display: inline-block;
+    color: black;
+}
+
+nav ul li a {
+    padding: 50px;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 992px) {
+    .images-section {
+        margin-top: 15%;
+    }
+
+    .contact-flex {
+        margin-top: 115%;
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .images-section {
+        margin-top: 75%;
+    }
+
+    .contact-flex {
+        margin-top:75%;
+    }
+
+    footer {
+        margin-top: 75%;
+    }
+  }

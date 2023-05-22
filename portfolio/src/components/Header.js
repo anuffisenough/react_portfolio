@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-function Header() {
+function Header({ currentPage, handlePageChange }) {
   
   return (
     <div style={{
@@ -22,7 +22,7 @@ function Header() {
       alignSelf: 'center',
       justifySelf: 'center',
       }}>Christopher Uffman</h1>
-      <Navigation />
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     </div>
   );
 }

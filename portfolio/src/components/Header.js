@@ -21,7 +21,7 @@ function Header({ currentPage, handlePageChange }) {
       fontStyle: 'oblique',
       alignSelf: 'center',
       justifySelf: 'center',
-      }}>Christopher Uffman</h1>
+      }}>Christopher Uffman, Developer</h1>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     </div>
   );

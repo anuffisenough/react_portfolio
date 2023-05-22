@@ -1,4 +1,4 @@
-const projects = [
+const Projects = [
     {
         title: 'KaraokeDokie',
         thumbnail: '',
@@ -12,11 +12,11 @@ const projects = [
         github_repository: 'https://github.com/charles-ram/karaoke-dokie-project',
     },
     {
-        title: 'TBD',
+        title: 'Cardify',
         thumbnail: '',
         deployed_link: '',
         github_repository: '',
     },
 ];
 
-export default projects;
+export default Projects;

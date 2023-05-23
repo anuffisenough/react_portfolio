@@ -9,7 +9,6 @@ body {
 
 }
 
-/*trying to keep name content and nav bar on same section at top, and flex around each other as screen decrements*/
 header {
     display: flex;
     flex-direction: row;
@@ -20,7 +19,7 @@ header {
     position: fixed;
 }
 
-/*Good*/
+
 h1 {
     flex-direction: row;
     width: 50%;
@@ -30,7 +29,6 @@ h1 {
     justify-self: center;
 }
 
-/*Good*/
 nav {
     display: flex;
     flex-direction: row;

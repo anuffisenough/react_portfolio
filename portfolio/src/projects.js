@@ -1,4 +1,4 @@
-const Projects = [
+const projects = [
     {
         title: 'KaraokeDokie',
         thumbnail: '',
@@ -13,10 +13,10 @@ const Projects = [
     },
     {
         title: 'Cardify',
-        thumbnail: 'CardifyHomePage.png',
+        thumbnail: '..',
         deployed_link: 'https://floating-brushlands-04245.herokuapp.com/',
         github_repository: 'https://github.com/SMU-Bootcamp-Project3/Cardify',
     },
 ];
 
-export default Projects;
+export default projects;

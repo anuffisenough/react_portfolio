@@ -1,12 +1,12 @@
 import React from 'react';
+// import projects from '../projects';
 
-function Project({ projects }) {
+function ProjectList(props) {
   return (
         <div className="container">
-          <h1>Projects:</h1>
+          {/* <h1>Projects:</h1> */}
           <ul className="project-group">
-            {/* Here we use the map method to iterate through each user and return a new array of list items for each user */}
-            {projects.map((project) => (
+            {props.projects.map((project) => (
               <li className="project-group-itme" key={project.title}>
                 {`${project.title} ${project.thumbnail} (${project.deployed_link}) (${project.github_repository})`}
               </li>
@@ -16,4 +16,4 @@ function Project({ projects }) {
       );
 }
 
-export default Project;
+export default ProjectList;

@@ -1,7 +1,7 @@
 import React from 'react';
-import CardifyLanding from './../../public/CardifyHomePage.png';
-import ParkingBuddyLanding from './../../public/ParkingBuddyHPScreenShot.png';
-import KaraokeDokieLanding from './../../public/KaraokeDokieHomeSearch.png';
+import CardifyLanding from '../images/CardifyHomePage.png';
+import ParkingBuddyLanding from '../images/ParkingBuddyHPScreenShot.png';
+import KaraokeDokieLanding from '../images/KaraokeDokieHomeSearch.png';
 
 export default function Project() {
     const projects = [
@@ -20,9 +20,23 @@ export default function Project() {
         {
             title: 'Cardify',
             link: 'https://github.com/SMU-CodingBootcamp-Project2/ParkingBuddy',
-            image: CardifyLandingLanding,
+            image: CardifyLanding,
             description: 'TBD',
         },
 
-    ]
+    ];
+
+
+return (
+    <div className="container">
+          {/* <h1>Projects:</h1> */}
+          <ul className="project-group">
+            {projects.map((project) => (
+              <li className="project-group-item" key={project.title}>
+                {`${project.title} ${project.image} (${project.link}) (${project.description})`}
+              </li>
+            ))}
+          </ul>
+        </div>
+ );
 }

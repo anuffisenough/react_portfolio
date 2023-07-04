@@ -7,7 +7,7 @@ function ProjectList(props) {
           {/* <h1>Projects:</h1> */}
           <ul className="project-group">
             {props.projects.map((project) => (
-              <li className="project-group-itme" key={project.title}>
+              <li className="project-group-item" key={project.title}>
                 {`${project.title} ${project.thumbnail} (${project.deployed_link}) (${project.github_repository})`}
               </li>
             ))}

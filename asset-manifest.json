@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.1547c7c7.css",
-    "main.js": "/react_portfolio/static/js/main.ef517338.js",
+    "main.js": "/react_portfolio/static/js/main.af872256.js",
+    "static/media/CardifyHomePage.png": "/react_portfolio/static/media/CardifyHomePage.78c31d35dc6f1f25dc63.png",
+    "static/media/ParkingBuddyHPScreenShot.png": "/react_portfolio/static/media/ParkingBuddyHPScreenShot.820e40262665c3cc9355.png",
+    "static/media/KaraokeDokieHomeSearch.png": "/react_portfolio/static/media/KaraokeDokieHomeSearch.b384137558983f48f0d4.png",
     "index.html": "/react_portfolio/index.html",
     "main.1547c7c7.css.map": "/react_portfolio/static/css/main.1547c7c7.css.map",
-    "main.ef517338.js.map": "/react_portfolio/static/js/main.ef517338.js.map"
+    "main.af872256.js.map": "/react_portfolio/static/js/main.af872256.js.map"
   },
   "entrypoints": [
     "static/css/main.1547c7c7.css",
-    "static/js/main.ef517338.js"
+    "static/js/main.af872256.js"
   ]
 }

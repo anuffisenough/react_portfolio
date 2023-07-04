@@ -10,7 +10,7 @@
 
 ## Usage
 
-Cardify is deployed live through [Git Hub Pages](https://anuffisenough.github.io/react_portfolio/)
+Portfolio is deployed live through [Git Hub Pages](https://anuffisenough.github.io/react_portfolio/)
 
 [Project GitHub Repository](https://github.com/anuffisenough/react_portfolio)
 
